@@ -1,0 +1,33 @@
+{
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript"],
+  "files.insertFinalNewline": true,
+  "eslint.format.enable": true,
+  "window.zoomLevel": -1,
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#fc8b8b",
+    "editor.background": "#444140",
+    "sideBar.background": "#2b2929",
+    "activityBar.background": "#201f1f",
+    "menu.background": "#2b2929",
+    "editorGroup.border": "#814848",
+    "tab.activeBackground": "#814848"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+},
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/package.json"
+      ],
+      "url": "https://json.schemastore.org/package",
+      "schema": true
+    }
+  ]
+}
